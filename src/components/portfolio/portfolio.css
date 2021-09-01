@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+#portfoliosection {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50vh;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;  
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: white;
+}
+
+.portfolio-container-title {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px; 
+    font-weight: normal;   
+}
+
+.portfolio-title-container-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-title-container {
+    margin-bottom: 100px;
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+.portfolio-container-subtitle {
+    color: #c96464;
+}
+
+.job-container {
+    padding: 10px 20px 10px;
+    height: fit-content;
+    width: 80%;
+    border-radius: 7px;
+}
+
+.job-container-title {
+    font-size: 25px;
+    margin: 10px 0px 0px;
+    font-weight: bold;
+}
+
+.job-container-blurb {
+    font-size: 20px;
+    margin: 30px 0px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.job-container-blurb.one {
+    color: #0b275b;
+    font-weight: bold;
+}
+
+.job-container-blurb.two {
+    font-weight: bold;
+    color: #001a00;
+}
+
+.job-container-title.two {
+    margin-top: 0;
+}
+
+.job-container.one {
+    border-left: 5px solid #5f91ec;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.job-container.two {
+    border-right: 5px solid green;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job-container.three {
+    border-left: 5px solid purple;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.geotab-logo {
+    height: auto;
+    width: 100%;
+}
+
+.appfabs-logo {
+    height: auto;
+    width: 25%;
+}
+
+.appfabs-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    margin-bottom: 10px;
+}
+
+.job-container-date {
+    margin: 10px 0px 0px;
+    color: #c96464;
+}
+
+.about-me-title-text.job-container-three {
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #portfoliosection {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50vh;
+    }
+
+    .portfolio-container {
+        width: 80%;
+        height: fit-content;
+        padding-bottom: 40px;
+        border-radius: 7px;
+    }
+
+    .job-container {
+        height: 400px;
+    }
+
+    .portfolio-container-title {
+        font-size: 60px;
+    }
+
+    .portfolio-title-container {
+        height: 80px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .job-container-title {
+        font-size: 35px;
+        margin: 10px 0px 0px;
+        font-weight: bold;
+    }
+    
+    .job-container-blurb {
+        font-size: 30px;
+        margin: 30px 0px 0px;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .job-container-blurb.one {
+        color: #0b275b;
+        font-weight: bold;
+    }
+    
+    .job-container-blurb.two {
+        font-weight: bold;
+        color: #001a00;
+    }
+    
+    .job-container-title.two {
+        margin-top: 0;
+    }
+    
+    .job-container.one {
+        border-left: 5px solid #5f91ec;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    
+    .job-container.two {
+        border-right: 5px solid green;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .job-container.three {
+        border-left: 5px solid purple;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .geotab-logo {
+        height: auto;
+        width: 100%;
+    }
+    
+    .appfabs-logo {
+        height: auto;
+        width: 40%;
+    }
+    
+    .appfabs-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        background-color: #3bb78f;
+        background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+        margin-bottom: 10px;
+    }
+    
+    .job-container-date {
+        font-size: 25px;
+        margin: 10px 0px 0px;
+        color: #c96464;
+    }
+    
+    .about-me-title-text.job-container-three {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    #portfoliosection {
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50vh;
+    }
+    .portfolio-container {
+        width: 50%;
+    }
+}
