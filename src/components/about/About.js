@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import profilephoto from '../../assets/profile-pic.png';
+import profilephoto from '../../assets/profile-pic.jpg';
 
 function About() {
     return (
@@ -21,7 +21,7 @@ function About() {
                                 When I am not coding, I enjoy reading, hiking and playing video games. 
                             </p>
                             <p className="about-me-information">
-                                Feel free to reach me directly at abiramrnair@gmail.com                                
+                                Contact me directly at abiramrnair@gmail.com                                
                             </p> 
                             <br></br>                                               
                             </div>                            

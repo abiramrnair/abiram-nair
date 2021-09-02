@@ -93,6 +93,7 @@
 .about-me-photo {
     width: 100%;
     height: auto;
+    align-self: center;
 }
 
 #thank-you-text {
