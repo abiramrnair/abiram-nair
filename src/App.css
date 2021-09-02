@@ -1,15 +1,14 @@
 html {
   scroll-behavior: smooth;
   margin: 0;
-  overflow-x: hidden;
 }
 
 body {  
-  background-image: url('./assets/background.jpg');
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
   margin: 0;
 }
