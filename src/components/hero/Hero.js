@@ -3,6 +3,10 @@ import './hero.css'
 import linkedinicon from '../../assets/linkedin-icon.png';
 import githubicon from '../../assets/github-icon.png';
 import resumeicon from '../../assets/resume-icon.png';
+import rocketicon from '../../assets/shuttle.png';
+import codeicon from '../../assets/coding.png';
+import gamecontrollericon from '../../assets/game-controller.png';
+import pizzaicon from '../../assets/pizza-slice.png';
 
 function Hero() {
     return (
@@ -21,6 +25,10 @@ function Hero() {
                 </div>
                 </div>
             </div>
+            <img className="rocket-icon" src={rocketicon} alt=""></img>
+            <img className="code-icon" src={codeicon} alt=""></img>
+            <img className="gamecontroller-icon" src={gamecontrollericon} alt=""></img>
+            <img className="pizza-icon" src={pizzaicon} alt=""></img>
         </section>  
     )
 }

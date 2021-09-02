@@ -5,6 +5,7 @@
     position: relative;
     z-index: 1;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 
 h1, h4 {
@@ -21,7 +22,43 @@ h1, h4 {
     align-items: center;
     width: 100%;
     height: 50%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.rocket-icon {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  bottom: 2%;
+  right: -5%;
+}
+
+.code-icon {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  top: 5%;
+  left: -5%;
+  transform: rotate(-30deg);
+  margin: 0;
+}
+
+.gamecontroller-icon {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  bottom: 2%;
+  left: -10%;
+  transform: rotate(-30deg);
+}
+
+.pizza-icon {
+  position: absolute;
+  height: auto;
+  width: 30%;
+  top: 5%;
+  right: -5%;
+  transform: rotate(30deg);
 }
 
 .hero-title {
@@ -80,6 +117,12 @@ h1, h4 {
     font-size: 30px;
     text-align: center;
     color: #00264d;
+    animation-delay: 2s;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
 }
 
 .hero-icons-container {
@@ -130,8 +173,24 @@ h1, h4 {
     font-size: 45px;
   }
 
-  .hero-icon {
-    height: 80px;
+  .rocket-icon {    
+    bottom: 2%;
+    right: -5%;
+  }
+  
+  .code-icon {   
+    top: 5%;
+    left: -5%;    
+  }
+  
+  .gamecontroller-icon {   
+    bottom: 2%;
+    left: -10%;    
+  }
+  
+  .pizza-icon {    
+    top: 5%;
+    right: -5%;    
   }
 }
 
@@ -151,5 +210,21 @@ h1, h4 {
   .break-two {
     height: 3px;
     margin-bottom: 30px;
+  }
+  .rocket-icon {    
+    bottom: 2%;
+    right: -5%;
+  }  
+  .code-icon {    
+    top: -25%;
+    left: 5%;    
+  }  
+  .gamecontroller-icon {    
+    bottom: 0;
+    left: -10%;      
+  }  
+  .pizza-icon {    
+    top: -30%;
+    right: 5%;    
   }
 }

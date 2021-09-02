@@ -20,9 +20,6 @@ function About() {
                             <p className="about-me-information">
                                 When I am not coding, I enjoy reading, hiking and playing video games. 
                             </p>
-                            <p className="about-me-information">
-                                Contact me directly at abiramrnair@gmail.com                                
-                            </p> 
                             <br></br>                                               
                             </div>                            
                         </div>
