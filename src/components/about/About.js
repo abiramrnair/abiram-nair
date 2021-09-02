@@ -1,8 +1,6 @@
 import React from 'react'
-import Footer from '../footer/Footer'
 import './about.css'
 import profilephoto from '../../assets/profile-pic.png';
-import signature from '../../assets/signature.png';
 
 function About() {
     return (
@@ -18,25 +16,24 @@ function About() {
                             <p className="about-me-information">
                                 I am a fourth year SWE major at Western
                                 University and currently on a one year work term at GEOTAB.
-                            </p>
-                            <p className="about-me-information">                                
-                            </p>                            
+                            </p>                                                       
                             <p className="about-me-information">
                                 When I am not coding, I enjoy reading, hiking and playing video games. 
                             </p>
+                            <p className="about-me-information">
+                                Feel free to reach me directly at abiramrnair@gmail.com                                
+                            </p> 
                             <br></br>                                               
                             </div>                            
                         </div>
                         <div className="about-me-information-three">
                             <p className="about-me-information" id="thank-you-text">
-                                Thanks for stopping by,
+                                Thanks for stopping by!
                             </p> 
-                            <img className="about-me-signature" src={signature} alt="sign"></img> 
                         </div>                                               
                     </div>
                 </div>
             </div>
-            <Footer />
         </section>
     )
 }

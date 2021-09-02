@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 #aboutsection {
-    height: 100vh;
+    height: fit-content;
     position: relative;
     z-index: 1;
+    margin-bottom: 50px;
 }
 
 .about-container {
@@ -22,14 +23,12 @@
     height: 50px;
     width: 100%;
     border-bottom: 1px solid white;
-    background: black;
+    background: #00264d;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
 }
 
 .me-text {
@@ -42,11 +41,8 @@
 }
 
 .about-me-information-container {
-    padding: 20px;    
-    display: flex;
-    flex-direction: column;
-    height: 85%;
-    justify-content: space-between;
+    padding: 20px;
+    color: #00264d;
 }
 
 .about-me-information {
@@ -161,16 +157,18 @@
 
 @media only screen and (min-width : 992px) {
     #aboutsection {
-        height: 110vh;
+        height: fit-content;
+        padding-bottom: 100px;
     }
     .about-container {
-        width: 50%;
+        width: 60%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
     .footer-media-icons {
         padding: 10px;
     }
     .about-me-information-container {
-        height: 80%;
+        height: fit-content;
     }
     .about-container {
         height: 100%;
@@ -185,5 +183,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .about-me-photo {
+        width: 30%;
     }
 }

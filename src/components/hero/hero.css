@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     z-index: 1;
-    margin-bottom: 50vh;
+    margin-bottom: 200px;
 }
 
 h1, h4 {
@@ -25,7 +25,7 @@ h1, h4 {
 }
 
 .hero-title {
-    color: black;
+    color: #00264d;
     text-align: center;
     margin: 0;
     font-size: 50px;
@@ -67,7 +67,7 @@ h1, h4 {
 }
 
 .hero-hi {
-    color: #4d4d4d;
+    color: #262626;
     animation-delay: 1s;    
     animation: fadeIn linear 1s;
     -webkit-animation: fadeIn linear 1s;
@@ -79,6 +79,7 @@ h1, h4 {
 .hero-motto {
     font-size: 30px;
     text-align: center;
+    color: #00264d;
 }
 
 .hero-icons-container {
@@ -149,5 +150,6 @@ h1, h4 {
 
   .break-two {
     height: 3px;
+    margin-bottom: 30px;
   }
 }

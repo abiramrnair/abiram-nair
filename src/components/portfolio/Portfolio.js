@@ -8,9 +8,7 @@ function Portfolio() {
         <section id="portfoliosection">
             <div className="portfolio-container">
                 <div className="portfolio-title-container-parent">
-                <div className="portfolio-title-container">
-                    <h1 className="portfolio-container-title">Work <span className="portfolio-container-subtitle">Experience</span></h1>               
-                </div>                
+                <div className="about-me-title portfolio"><p className="about-me-title-text">Work <span className="me-text">Experience</span></p></div>              
                 <div className="job-container one">
                     <div>
                         <img className="geotab-logo" src={geotablogo} alt=""></img>
@@ -40,7 +38,7 @@ function Portfolio() {
                     <div className="job-container-information two">                    
                     <p className="job-container-blurb two">
                         Developed and modified features for small-scale static client websites.
-                        Implemented and revised designs of existing company web components.
+                        Implemented and revised designs of existing company software components.
                     </p>
                     </div>
                 </div>                
