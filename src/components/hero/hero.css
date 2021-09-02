@@ -256,13 +256,37 @@ h1, h4 {
   }
 }
 
-@media only screen and (max-height: 715px) {
+@media only screen and (max-height: 770px) {
+  .rocket-icon {
+    width: 30%;
+    bottom: 2%;
+    right: -5%;
+  }  
+  .code-icon { 
+    width: 30%;
+    top: -10%;
+    left: -5%;   
+  }  
+  .gamecontroller-icon {
+    width: 30%;
+    bottom: 2%;
+    left: -5%;  
+  }  
+  .pizza-icon { 
+    width: 30%;
+    top: -10%;
+    right: -5%;  
+  }
+}
+
+@media only screen and (min-width: 350px) {
   .rocket-icon {    
     width: 20%;
     right: -5%;
   }  
   .code-icon {    
     width: 20%;
+    top: 0%;
     left: 0%;
   }  
   .gamecontroller-icon {    
@@ -271,6 +295,7 @@ h1, h4 {
   }  
   .pizza-icon {    
     width: 20%;
+    top: 0%;
     right: 0%;
   }
 }
