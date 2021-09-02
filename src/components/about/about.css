@@ -194,3 +194,9 @@
         width: 40%;
     }
 }
+
+@media only screen and (max-height: 500px) {
+    .about-me-photo {
+        width: 50%;
+    }
+}
