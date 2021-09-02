@@ -16,6 +16,7 @@
     font-family: 'Roboto', sans-serif;
     background: white;
     padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .portfolio-container-title {
@@ -144,7 +145,7 @@
         height: fit-content;
         display: flex;
         justify-content: center;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
     }
 
     .portfolio-container {
@@ -152,6 +153,7 @@
         height: fit-content;
         padding-bottom: 40px;
         border-radius: 7px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
 
     .job-container {
