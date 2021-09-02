@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.8cf652e9.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.e4105259.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.e4105259.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.206dc64f.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.206dc64f.js.map",
-    "static/js/2.9111d51a.chunk.js": "/portfolio-website/static/js/2.9111d51a.chunk.js",
-    "static/js/2.9111d51a.chunk.js.map": "/portfolio-website/static/js/2.9111d51a.chunk.js.map",
-    "index.html": "/portfolio-website/index.html",
-    "static/css/main.8cf652e9.chunk.css.map": "/portfolio-website/static/css/main.8cf652e9.chunk.css.map",
-    "static/js/2.9111d51a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.9111d51a.chunk.js.LICENSE.txt",
-    "static/media/coding.7da89742.png": "/portfolio-website/static/media/coding.7da89742.png",
-    "static/media/game-controller.b1262eeb.png": "/portfolio-website/static/media/game-controller.b1262eeb.png",
-    "static/media/github-icon.0b353c1b.png": "/portfolio-website/static/media/github-icon.0b353c1b.png",
-    "static/media/pizza-slice.95f885dc.png": "/portfolio-website/static/media/pizza-slice.95f885dc.png",
-    "static/media/profile-pic.a6e3af05.jpg": "/portfolio-website/static/media/profile-pic.a6e3af05.jpg",
-    "static/media/resume-icon.2421532e.png": "/portfolio-website/static/media/resume-icon.2421532e.png",
-    "static/media/shuttle.c9d6f64f.png": "/portfolio-website/static/media/shuttle.c9d6f64f.png"
+    "main.css": "/abiram-nair/static/css/main.545f23e4.chunk.css",
+    "main.js": "/abiram-nair/static/js/main.e4105259.chunk.js",
+    "main.js.map": "/abiram-nair/static/js/main.e4105259.chunk.js.map",
+    "runtime-main.js": "/abiram-nair/static/js/runtime-main.a87add94.js",
+    "runtime-main.js.map": "/abiram-nair/static/js/runtime-main.a87add94.js.map",
+    "static/js/2.9111d51a.chunk.js": "/abiram-nair/static/js/2.9111d51a.chunk.js",
+    "static/js/2.9111d51a.chunk.js.map": "/abiram-nair/static/js/2.9111d51a.chunk.js.map",
+    "index.html": "/abiram-nair/index.html",
+    "static/css/main.545f23e4.chunk.css.map": "/abiram-nair/static/css/main.545f23e4.chunk.css.map",
+    "static/js/2.9111d51a.chunk.js.LICENSE.txt": "/abiram-nair/static/js/2.9111d51a.chunk.js.LICENSE.txt",
+    "static/media/coding.7da89742.png": "/abiram-nair/static/media/coding.7da89742.png",
+    "static/media/game-controller.b1262eeb.png": "/abiram-nair/static/media/game-controller.b1262eeb.png",
+    "static/media/github-icon.0b353c1b.png": "/abiram-nair/static/media/github-icon.0b353c1b.png",
+    "static/media/pizza-slice.95f885dc.png": "/abiram-nair/static/media/pizza-slice.95f885dc.png",
+    "static/media/profile-pic.a6e3af05.jpg": "/abiram-nair/static/media/profile-pic.a6e3af05.jpg",
+    "static/media/resume-icon.2421532e.png": "/abiram-nair/static/media/resume-icon.2421532e.png",
+    "static/media/shuttle.c9d6f64f.png": "/abiram-nair/static/media/shuttle.c9d6f64f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.206dc64f.js",
+    "static/js/runtime-main.a87add94.js",
     "static/js/2.9111d51a.chunk.js",
-    "static/css/main.8cf652e9.chunk.css",
+    "static/css/main.545f23e4.chunk.css",
     "static/js/main.e4105259.chunk.js"
   ]
 }
