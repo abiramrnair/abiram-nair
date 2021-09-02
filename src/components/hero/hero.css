@@ -301,7 +301,7 @@ h1, h4 {
   }
 }
 
-@media only screen and (max-height: 350px) {
+@media only screen and (max-height: 270px) {
   .rocket-icon {    
     display: none;
   }  
