@@ -208,17 +208,22 @@
         font-size: 40px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
         align-items: center;
+        color: #262626;
     }
     .laptop-icon {
-        width: 40%;
+        width: 35%;
+    }
+    .hero-icons-container.about-icons {
+        margin-top: 30px;
+        width: 70%;
     }
     .hero-icon.about-icon {
         height: auto;
-        width: 60px;
+        width: 50px;
     }
 }
 

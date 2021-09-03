@@ -18,13 +18,9 @@ function About() {
                             <div className="about-me-information-socials">
                                 <img className="about-me-photo" src={profilephoto} alt="me"></img>
                                 <div className="socials-container">
+                                    Reach out any time.
                                     <img className="laptop-icon" src={laptopicon} alt=""></img> 
-                                    abiramrnair@gmail.com
-                                    <div className="hero-icons-container">
-                                        <a href="https://www.linkedin.com/in/abiram-nair/" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={linkedinicon} alt=""/></a>
-                                        <a href="https://github.com/gearbaneseries" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={githubicon} alt=""/></a>
-                                        <a href="https://drive.google.com/file/d/1F9aE_2w6uWYiuc7m7ThPYRT0J8R-bdhb/view?usp=sharing" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={resumeicon} alt=""/></a>
-                                    </div>        
+                                    abiramrnair@gmail.com                                           
                                 </div>
                             </div>                            
                             <div className="about-me-information-one-text">                                 
@@ -42,7 +38,12 @@ function About() {
                         <div className="about-me-information-three">
                             <p className="about-me-information" id="thank-you-text">
                                 Thanks for stopping by!
-                            </p> 
+                            </p>
+                            <div className="hero-icons-container about-icons">
+                                        <a href="https://www.linkedin.com/in/abiram-nair/" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={linkedinicon} alt=""/></a>
+                                        <a href="https://github.com/gearbaneseries" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={githubicon} alt=""/></a>
+                                        <a href="https://drive.google.com/file/d/1F9aE_2w6uWYiuc7m7ThPYRT0J8R-bdhb/view?usp=sharing" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={resumeicon} alt=""/></a>
+                            </div> 
                         </div>                                               
                     </div>
                 </div>
