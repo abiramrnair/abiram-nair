@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/abiram-nair/static/css/main.203d58f8.chunk.css",
-    "main.js": "/abiram-nair/static/js/main.7b4ec4f8.chunk.js",
-    "main.js.map": "/abiram-nair/static/js/main.7b4ec4f8.chunk.js.map",
+    "main.css": "/abiram-nair/static/css/main.32cf7476.chunk.css",
+    "main.js": "/abiram-nair/static/js/main.febe9869.chunk.js",
+    "main.js.map": "/abiram-nair/static/js/main.febe9869.chunk.js.map",
     "runtime-main.js": "/abiram-nair/static/js/runtime-main.a87add94.js",
     "runtime-main.js.map": "/abiram-nair/static/js/runtime-main.a87add94.js.map",
     "static/js/2.9111d51a.chunk.js": "/abiram-nair/static/js/2.9111d51a.chunk.js",
     "static/js/2.9111d51a.chunk.js.map": "/abiram-nair/static/js/2.9111d51a.chunk.js.map",
     "index.html": "/abiram-nair/index.html",
-    "static/css/main.203d58f8.chunk.css.map": "/abiram-nair/static/css/main.203d58f8.chunk.css.map",
+    "static/css/main.32cf7476.chunk.css.map": "/abiram-nair/static/css/main.32cf7476.chunk.css.map",
     "static/js/2.9111d51a.chunk.js.LICENSE.txt": "/abiram-nair/static/js/2.9111d51a.chunk.js.LICENSE.txt",
     "static/media/coding.7da89742.png": "/abiram-nair/static/media/coding.7da89742.png",
     "static/media/game-controller.b1262eeb.png": "/abiram-nair/static/media/game-controller.b1262eeb.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a87add94.js",
     "static/js/2.9111d51a.chunk.js",
-    "static/css/main.203d58f8.chunk.css",
-    "static/js/main.7b4ec4f8.chunk.js"
+    "static/css/main.32cf7476.chunk.css",
+    "static/js/main.febe9869.chunk.js"
   ]
 }
