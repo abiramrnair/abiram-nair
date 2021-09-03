@@ -21,7 +21,10 @@ function Portfolio() {
                     </div>                    
                     <div className="job-container-information one">                        
                         <p className="job-container-blurb one">
-                            Developing Intelligent Transportation Systems software with Big Data as part of the Data Visualization Team.                        </p>
+                            Developing Intelligent Transportation Systems software for 
+                            analyzing fleet vehicle data gathered from roads, intersections, 
+                            cities and subdivisions in Canada and the U.S.                         
+                        </p>
                     </div>                    
                 </div>
                 </div>
