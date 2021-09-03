@@ -37,7 +37,7 @@
 }
 
 .about-me-title-text {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 1px;
 }
 
@@ -189,7 +189,7 @@
     }
     .about-container {
         width: 60%;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     }
     .footer-media-icons {
         padding: 10px;

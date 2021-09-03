@@ -12,7 +12,7 @@ function Hero() {
     return (
         <section id="herosection">
             <div className="hero-container">
-                <div className="hero-title"><h1><span className="hero-hi">Hi. </span>I'm Abiram.</h1>
+                <div className="hero-title"><h1><span className="hero-hi">Hi. </span><span className="hero-intro">I'm Abiram.</span></h1>
                 <hr className="break-one"></hr>
                 </div>                
                 <div className="hero-subsection">

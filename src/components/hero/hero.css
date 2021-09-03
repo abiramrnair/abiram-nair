@@ -73,35 +73,26 @@ h1, h4 {
     letter-spacing: 1px;
 }
 
-.hero-title h1 {
-  animation-delay: 1s;    
+.hero-hi {
+  color: #262626;  
   animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;  
+  -moz-animation: fadeIn linear 1s;  
 }
 
-.hero-hi {
-    color: #262626;
-    animation-delay: 1s;    
-    animation: fadeIn linear 1s;
-    -webkit-animation: fadeIn linear 1s;
-    -moz-animation: fadeIn linear 1s;
-    -o-animation: fadeIn linear 1s;
-    -ms-animation: fadeIn linear 1s;
+.hero-intro {  
+  animation: fadeIn linear 1s;  
+  -webkit-animation: fadeIn linear 1s;  
+  -moz-animation: fadeIn linear 1s;  
 }
 
 .hero-motto {
-    font-size: 30px;
-    text-align: center;
-    color: #00264d;
-    animation-delay: 1s;
-    animation: fadeIn linear 1s;
-    -webkit-animation: fadeIn linear 1s;
-    -moz-animation: fadeIn linear 1s;
-    -o-animation: fadeIn linear 1s;
-    -ms-animation: fadeIn linear 1s;
+  font-size: 30px;
+  text-align: center;
+  color: #00264d;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;  
+  -moz-animation: fadeIn linear 1s;      
 }
 
 @keyframes fadeIn {
