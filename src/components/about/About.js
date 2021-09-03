@@ -25,12 +25,13 @@ function About() {
                             </div>                            
                             <div className="about-me-information-one-text">                                 
                             <p className="about-me-information">
-                                I am a fourth year software engineering major at Western
-                                University and currently on a one year work term at GEOTAB. I consider myself a driven individual 
-                                who loves to self learn and tackle any challenges.
+                                I am a fourth year SWE major at Western
+                                University with a passion for data science and machine learning. Whether
+                                it's a new tech stack or some obscure skill, I love self learning 
+                                and will seize every opportunity to better myself.
                             </p>                                                       
                             <p className="about-me-information">
-                                When I am not coding, I enjoy reading epic fantasy, hiking and playing video games. 
+                                When I am not coding, I enjoy reading epic fantasies, hiking and playing video games.
                             </p>
                             <br></br>                                               
                             </div>                            
