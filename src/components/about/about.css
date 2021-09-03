@@ -95,6 +95,7 @@
     width: 100%;
     height: auto;
     align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #thank-you-text {
@@ -193,10 +194,40 @@
     .about-me-photo {
         width: 40%;
     }
+    .about-me-information-socials {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .projects-buttons-container {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-around;
+    }
+    .socials-container {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+    }
+    .laptop-icon {
+        width: 40%;
+    }
+    .hero-icon.about-icon {
+        height: auto;
+        width: 60px;
+    }
 }
 
 @media only screen and (max-height: 500px) {
     .about-me-photo {
         width: 50%;
     }
+}
+
+@media only screen and (max-width: 1180px) {
+    .socials-container {display: none;}
 }
