@@ -113,6 +113,21 @@
     margin-bottom: 10px;
 }
 
+.hero-icons-container.about-icons {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.hero-icon.about-icon {
+    height: auto;
+    width: 40px;
+}
+
+.about-me-information-socials {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
     #aboutsection {
         display: flex;
@@ -159,6 +174,11 @@
     }
     #thank-you-text {
         font-size: 30px;
+    }
+
+    .hero-icon.about-icon {
+        height: auto;
+        width: 60px;
     }
 }
 
