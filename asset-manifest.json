@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abiram-nair/static/css/main.b9e05d0b.chunk.css",
-    "main.js": "/abiram-nair/static/js/main.0eb7f6ed.chunk.js",
-    "main.js.map": "/abiram-nair/static/js/main.0eb7f6ed.chunk.js.map",
+    "main.js": "/abiram-nair/static/js/main.92b666e6.chunk.js",
+    "main.js.map": "/abiram-nair/static/js/main.92b666e6.chunk.js.map",
     "runtime-main.js": "/abiram-nair/static/js/runtime-main.a87add94.js",
     "runtime-main.js.map": "/abiram-nair/static/js/runtime-main.a87add94.js.map",
     "static/js/2.9111d51a.chunk.js": "/abiram-nair/static/js/2.9111d51a.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a87add94.js",
     "static/js/2.9111d51a.chunk.js",
     "static/css/main.b9e05d0b.chunk.css",
-    "static/js/main.0eb7f6ed.chunk.js"
+    "static/js/main.92b666e6.chunk.js"
   ]
 }
