@@ -37,6 +37,7 @@ h1, h4 {
   width: 50%;
   bottom: 2%;
   right: -15%;
+  pointer-events: none;
 }
 
 .code-icon {
@@ -47,6 +48,7 @@ h1, h4 {
   left: -15%;
   transform: rotate(-30deg);
   margin: 0;
+  pointer-events: none;
 }
 
 .gamecontroller-icon {
@@ -56,6 +58,7 @@ h1, h4 {
   bottom: 2%;
   left: -15%;
   transform: rotate(-30deg);
+  pointer-events: none;
 }
 
 .pizza-icon {
@@ -65,6 +68,7 @@ h1, h4 {
   top: 0%;
   right: -15%;
   transform: rotate(30deg);
+  pointer-events: none;
 }
 
 .hero-title {
@@ -76,16 +80,19 @@ h1, h4 {
     flex-direction: column;
     align-items: center;
     letter-spacing: 1px;
+    pointer-events: none;
 }
 
 .hero-hi {
-  color: #262626;    
+  color: #262626;  
+  pointer-events: none;  
 }
 
 .hero-motto {
   font-size: 30px;
   text-align: center;
-  color: #00264d;    
+  color: #00264d;   
+  pointer-events: none; 
 }
 
 @keyframes fadeIn {
