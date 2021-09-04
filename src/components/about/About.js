@@ -25,14 +25,10 @@ function About() {
                             </div>                            
                             <div className="about-me-information-one-text">                                 
                             <p className="about-me-information">
-                                I am a fourth year SWE major at Western
-                                University interested in data science and fullstack development. 
-                                Whether it's a new framework or some obscure skill, I love self learning 
-                                and will seize every opportunity to better myself.
-                            </p>                                                       
-                            <p className="about-me-information">
-                                When I am not coding, I enjoy reading epic fantasies, hiking and playing video games.
-                            </p>
+                                I'm a fourth year SWE major at Western
+                                University interested in data science and fullstack development.
+                                In my spare time, I like to read epic fantasy, hike trails and play PC games.
+                            </p>                  
                             <br></br>                                               
                             </div>                            
                         </div>
