@@ -36,6 +36,7 @@
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     pointer-events: none;
+    transition: .4s;
 }
 
 .about-me-title.nightmode {
@@ -110,6 +111,7 @@
     height: auto;
     align-self: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
 }
 
 .about-me-information-three.nightmode {
