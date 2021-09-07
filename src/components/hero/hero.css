@@ -38,6 +38,14 @@ h1, h4 {
   bottom: 2%;
   right: -15%;
   pointer-events: none;
+  transition: .4s;
+}
+
+.rocket-icon.nightmode {
+  right: -5%;
+  bottom: -2%;
+  width: 35%;
+  margin: 0;
 }
 
 .code-icon {
@@ -49,6 +57,14 @@ h1, h4 {
   transform: rotate(-30deg);
   margin: 0;
   pointer-events: none;
+  transition: .4s;
+}
+
+.code-icon.nightmode {
+  top: -3%;
+  left: -5%;
+  transform: none;  
+  width: 35%;
 }
 
 .gamecontroller-icon {
@@ -59,6 +75,14 @@ h1, h4 {
   left: -15%;
   transform: rotate(-30deg);
   pointer-events: none;
+  transition: .4s;
+}
+
+.gamecontroller-icon.nightmode {
+  width: 10%;
+  bottom: 15%;
+  left: 20%;
+  transform: rotate(30deg);
 }
 
 .pizza-icon {
@@ -69,6 +93,14 @@ h1, h4 {
   right: -15%;
   transform: rotate(30deg);
   pointer-events: none;
+  transition: .4s;
+}
+
+.pizza-icon.nightmode {
+  top: 10%;
+  right: 25%;
+  width: 5%;
+  transform: rotate(30deg);
 }
 
 .hero-title {
@@ -81,18 +113,33 @@ h1, h4 {
     align-items: center;
     letter-spacing: 1px;
     pointer-events: none;
+    transition: .4s;
+}
+
+.hero-title.nightmode {
+  color: #f8f8ff;
 }
 
 .hero-hi {
   color: #262626;  
-  pointer-events: none;  
+  pointer-events: none;
+  transition: .4s;  
+}
+
+.hero-hi.nightmode {
+  color: #c25151;
 }
 
 .hero-motto {
   font-size: 30px;
   text-align: center;
   color: #00264d;   
-  pointer-events: none; 
+  pointer-events: none;
+  transition: .4s; 
+}
+
+.hero-motto.nightmode {
+  color: #f8f8ff;
 }
 
 @keyframes fadeIn {
@@ -147,6 +194,10 @@ h1, h4 {
   background: black;
   width: 30%;
   border: none;
+}
+
+.break-two.nightmode {
+  background: white;
 }
 
 .hero-subsection {

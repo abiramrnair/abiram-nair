@@ -20,6 +20,11 @@
     background: white;
 }
 
+.about-information.nightmode {
+    background-color: #637081;
+    background-image: linear-gradient(315deg, #637081 0%, #7c98b3 74%);
+}
+
 .about-me-title {
     height: 50px;
     width: 100%;
@@ -31,6 +36,10 @@
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     pointer-events: none;
+}
+
+.about-me-title.nightmode {
+    background: #262626;
 }
 
 .me-text {
@@ -49,6 +58,10 @@
 
 .about-me-information {
    margin-top: 0;
+}
+
+.about-me-information.nightmode {
+    color: #2e2759;
 }
 
 .about-me-information-one-text {
@@ -97,6 +110,10 @@
     height: auto;
     align-self: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-me-information-three.nightmode {
+    color: #2e2759;
 }
 
 #thank-you-text {

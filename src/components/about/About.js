@@ -6,13 +6,13 @@ import linkedinicon from '../../assets/linkedin-icon.png';
 import githubicon from '../../assets/github-icon.png';
 import resumeicon from '../../assets/resume-icon.png';
 
-function About() {
+function About(props) {
     return (
         <section id="aboutsection">
             <div className="about-container">
                 <div className="about-portrait-container"></div>
-                <div className="about-information">
-                    <div className="about-me-title"><p className="about-me-title-text">About <span className="me-text">Me</span></p></div>
+                <div className={`about-information${props.nightmode ? " nightmode":""}`}>
+                    <div className={`about-me-title${props.nightmode ? " nightmode" : ""}`}><p className="about-me-title-text">About <span className={`me-text${props.nightmode ? " nightmode":""}`}>Me</span></p></div>
                     <div className="about-me-information-container">
                         <div className="about-me-information-one">
                             <div className="about-me-information-socials">
@@ -24,7 +24,7 @@ function About() {
                                 </div>
                             </div>                            
                             <div className="about-me-information-one-text">                                 
-                            <p className="about-me-information">
+                            <p className={`about-me-information${props.nightmode ? " nightmode":""}`}>
                                 I'm a fourth year SWE major at Western
                                 University interested in data science and fullstack development.
                                 In my spare time, I like to read epic fantasy, hike trails and play PC games.
@@ -32,7 +32,7 @@ function About() {
                             <br></br>                                               
                             </div>                            
                         </div>
-                        <div className="about-me-information-three">
+                        <div className={`about-me-information-three${props.nightmode ? " nightmode":""}`}>
                             <p className="about-me-information" id="thank-you-text">
                                 Thanks for stopping by!
                             </p>
