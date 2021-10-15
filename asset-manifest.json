@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abiram-nair/static/css/main.55f2e867.chunk.css",
+    "main.css": "/abiram-nair/static/css/main.f476fb1c.chunk.css",
     "main.js": "/abiram-nair/static/js/main.4367d774.chunk.js",
     "main.js.map": "/abiram-nair/static/js/main.4367d774.chunk.js.map",
     "runtime-main.js": "/abiram-nair/static/js/runtime-main.a87add94.js",
@@ -8,7 +8,7 @@
     "static/js/2.d9d17152.chunk.js": "/abiram-nair/static/js/2.d9d17152.chunk.js",
     "static/js/2.d9d17152.chunk.js.map": "/abiram-nair/static/js/2.d9d17152.chunk.js.map",
     "index.html": "/abiram-nair/index.html",
-    "static/css/main.55f2e867.chunk.css.map": "/abiram-nair/static/css/main.55f2e867.chunk.css.map",
+    "static/css/main.f476fb1c.chunk.css.map": "/abiram-nair/static/css/main.f476fb1c.chunk.css.map",
     "static/js/2.d9d17152.chunk.js.LICENSE.txt": "/abiram-nair/static/js/2.d9d17152.chunk.js.LICENSE.txt",
     "static/media/astronaut.1bd5b705.png": "/abiram-nair/static/media/astronaut.1bd5b705.png",
     "static/media/coding.7da89742.png": "/abiram-nair/static/media/coding.7da89742.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a87add94.js",
     "static/js/2.d9d17152.chunk.js",
-    "static/css/main.55f2e867.chunk.css",
+    "static/css/main.f476fb1c.chunk.css",
     "static/js/main.4367d774.chunk.js"
   ]
 }
