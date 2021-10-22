@@ -26,7 +26,7 @@ function Hero(props) {
                 <hr className={`break-two${props.nightmode ? " nightmode" : ""}`}></hr>
                 <div className="hero-icons-container">
                     <a href="https://www.linkedin.com/in/abiram-nair/" target="_blank" rel="noreferrer"><img className="hero-icon" src={linkedinicon} alt=""/></a>
-                    <a href="https://github.com/gearbaneseries" target="_blank" rel="noreferrer"><img className="hero-icon" src={githubicon} alt=""/></a>
+                    <a href="https://github.com/abiramrnair" target="_blank" rel="noreferrer"><img className="hero-icon" src={githubicon} alt=""/></a>
                     <a href="https://drive.google.com/file/d/1F9aE_2w6uWYiuc7m7ThPYRT0J8R-bdhb/view?usp=sharing" target="_blank" rel="noreferrer"><img className="hero-icon" src={resumeicon} alt=""/></a>
                 </div>
                 </div>
