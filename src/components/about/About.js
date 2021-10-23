@@ -38,7 +38,7 @@ function About(props) {
                             </p>
                             <div className="hero-icons-container about-icons">
                                         <a href="https://www.linkedin.com/in/abiram-nair/" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={linkedinicon} alt=""/></a>
-                                        <a href="https://github.com/gearbaneseries" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={githubicon} alt=""/></a>
+                                        <a href="https://github.com/abiramrnair" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={githubicon} alt=""/></a>
                                         <a href="https://drive.google.com/file/d/1F9aE_2w6uWYiuc7m7ThPYRT0J8R-bdhb/view?usp=sharing" target="_blank" rel="noreferrer"><img className="hero-icon about-icon" src={resumeicon} alt=""/></a>
                             </div> 
                         </div>                                               
